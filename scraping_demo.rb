@@ -5,6 +5,7 @@ require 'nokogiri' # Parse HTML/XML >> Nokogiri
 
 # Let's scrape recipes from https://recipes.lewagon.com/
 
+# PARSING
 url = "https://recipes.lewagon.com/"
 
 html_file = URI.open(url).read

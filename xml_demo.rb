@@ -3,16 +3,16 @@
 require 'nokogiri'
 
 # PARSING
-# filepath = File.open('data/abba.xml')
-# document = Nokogiri::XML(filepath)
+filepath = File.open('data/abba.xml')
+document = Nokogiri::XML(filepath)
 
-# document.root.xpath('member').each do |member|
-#   first_name = member.xpath('first_name').text
-#   last_name = member.xpath('last_name').text
-#   instrument = member.xpath('instrument').text
+document.root.xpath('member').each do |member|
+  first_name = member.xpath('first_name').text
+  last_name = member.xpath('last_name').text
+  instrument = member.xpath('instrument').text
 
-#   p "#{first_name} #{last_name} at the #{instrument} 🎶"
-# end
+  p "#{first_name} #{last_name} at the #{instrument} 🎶"
+end
 
 # STORING
 builder = Nokogiri::XML::Builder.new(encoding: 'UTF-8') do
