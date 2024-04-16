@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abba>
+  <member>
+    <first_name>Agnetha</first_name>
+    <last_name>Fältskog</last_name>
+    <instrument>Vocals</instrument>
+  </member>
+  <member>
+    <first_name>Björn</first_name>
+    <last_name>Ulvaeus</last_name>
+    <instrument>Guitar/Vocals</instrument>
+  </member>
+  <member>
+    <first_name>Benny</first_name>
+    <last_name>Andersson</last_name>
+    <instrument>Keyboard/Vocals</instrument>
+  </member>
+  <member>
+    <first_name>Anni-Frid</first_name>
+    <last_name>Lyngstad</last_name>
+    <instrument>Vocals</instrument>
+  </member>
+</abba>
